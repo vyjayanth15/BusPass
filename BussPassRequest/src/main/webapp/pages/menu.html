@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body {
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+	width: 200px;
+	height: 100px;
+}
+/* ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} */
+li{
+	float: left;
+	padding-right: 30px;
+	list-style-type: none;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 50px;
+}
+
+#sas {
+	display: flex;
+	flex-direction: column;
+}
+
+.anchor {
+	background-color: lightblue;
+	border: none;
+	width: 200px;
+	height: 60px;
+	padding: 10px;
+	
+}
+#container{
+	height: 160px;
+	width: 100px;
+	background-color: ;
+	float: left;
+	flex-direction: column;
+}
+#container1{
+	height: 300px;
+	width: 850px;
+	background-color:none;
+	float: left;
+	margin-left: 190px;
+}
+.children{
+	height: 30px;
+	width: 180px;
+}
+a{
+	width: 200px;
+	height: 60px;
+}
+</style>
+</head>
+<body>
+	<form name="f1">
+		<h1 align="center">Bus Portal</h1>
+		<hr>
+		<div id="container">	
+			<ul>
+				<li><a href="../Pending" target="myiframe">Pending</a></li>
+				<li><a href="addroute.html" target="myiframe">Add route</a></li>
+				<li><a href="../ListAllRoutes"target="myiframe">List of All Routes</a></li>
+				<li><a href="monthlyreport.html"target="myiframe">Monthly Report</a></li>
+				<li><a href="../index.html">Logout</a></li>
+			</ul>
+			
+		</div>
+		
+		<iframe id="container1" name="myiframe"></iframe>
+		
+	</form>
+</body>
+</html>

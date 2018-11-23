@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bus Pass Request Form</title>
+</head>
+<body>
+	<form action="../PassRequestServlet" method="post">
+		<div align="center"
+			style="border: 3px solid black; padding-bottom: 15px; width: 500px">
+			<h1>BusPass Request Form</h1>
+			<table>
+				<tr>
+					<th>Employee Id</th>
+					<td><input name="employee_id" type="text"></td>
+				</tr>
+				<tr>
+					<th>First Name</th>
+					<td><input name="firstName" type="text"></td>
+				</tr>
+				<tr>
+					<th>Last Name</th>
+					<td><input name="lastName" type="text"></td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><input name="emailId" type="email"></td>
+				</tr>
+				<tr>
+					<th>Designation :</th>
+					<td><select id="designation" name="Designation">
+							<option value="Software engineer">Software engineer</option>
+							<option value="Sr.Software Engineer">Sr.Software
+								Engineer</option>
+							<option value="Associate Consultant">Associate
+								Consultant</option>
+							<option value="Manager">Manager</option>
+							<option value="Sr.Manager">Sr.Manager</option>
+							<option value="Other">Other</option>
+					</select></td>
+				</tr>
+				<tr>
+				<tr>
+					<th>Gender</th>
+					<td><select name="gender">
+							<option>Male</option>
+							<option>Female</option>
+							<option>Others</option>
+					</select></td>
+				</tr>
+				<tr>
+					<th>Address</th>
+					<td><textarea id="address" name="addr" Rows="2" cols="16"></textarea></td>
+				</tr>
+				<tr>
+					<th>Date of Joining</th>
+					<td><input name="dofjoining" type="date"></td>
+				</tr>
+				<tr>
+					<th>Location</th>
+					<td><select name="location">
+							<option>Chennai Central to Chennai-MIPL</option>
+							<option>Chennai Central to Sipcot</option>
+							<option>Chennai Central to PCT</option>
+					</select></td>
+				</tr>
+				<tr>
+					<th>Pickup Location</th>
+					<td><select name="pickupLocation">
+							<option>Chennai-MIPL</option>
+							<option>SPKovil</option>
+							<option>MariamaliNagar</option>
+							<option>Urapakkam</option>
+							<option>Vandalur</option>
+							<option>Perungatlur</option>
+							<option>Gudvancheri</option>
+							<option>Tambaram</option>
+							<option>Chrompet</option>
+							<option>Pallavaram</option>
+							<option>Mambalam</option>	
+							<option>Kiltakattali,</option>
+							<option>KamachiHospital</option>
+							<option>Chennai Central</option>
+							<option>Sipcot</option>
+							<option>-PCT</option>
+					</select></td>
+				</tr>
+				<tr>
+					<th>Pickup Time</th>
+					<td><input name="pickupTime" type="time"></td>
+				</tr>
+				<tr>
+					<th>Drop Location</th>
+					<td><select>
+							<option>Chennai-MIPL</option>
+							<option>SPKovil</option>
+							<option>MariamaliNagar</option>
+							<option>Urapakkam</option>
+							<option>Vandalur</option>
+							<option>Perungatlur</option>
+							<option>Gudvancheri</option>
+							<option>Tambaram</option>
+							<option>Chrompet</option>
+							<option>Pallavaram</option>
+							<option>Mambalam</option>	
+							<option>Kiltakattali,</option>
+							<option>KamachiHospital</option>
+							<option>ChennaiCentral</option>
+							<option>Sipcot</option>
+							<option>-PCT</option>
+					</select></td>
+				</tr>
+				<tr>
+					<th>Drop Time</th>
+					<td><input type="time"></td>
+				</tr>
+				<tr>
+					<th></th>
+					<td><input id="frame" type="Submit" value="Submit Request"></td>
+				</tr>
+
+			</table>
+
+
+
+		</div>
+	</form>
+</body>
+</html>
